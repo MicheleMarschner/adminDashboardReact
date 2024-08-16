@@ -1,0 +1,367 @@
+{
+    "cards": [
+        {
+            "_id": 1,
+            "name": "Sales",
+            "icon": "bi bi-cart",
+            "amount": 145,
+            "percentage": 0.12,
+            "active": true
+        },
+        {
+            "_id": 2,
+            "name": "Revenue",
+            "icon": "bi bi-currency-dollar",
+            "amount": 3246,
+            "percentage": 0.08,
+            "active": false
+        },
+        {
+            "_id": 3,
+            "name": "Customers",
+            "icon": "bi bi-people",
+            "amount": 1244,
+            "percentage": -0.11,
+            "active": false
+        }
+    ],
+    "news": [
+        {
+            "_id": 1,
+            "img": "https://cdn.dummyjson.com/recipe-images/1.webp",
+            "title": "Nihil lallal one title lala",
+            "subtitle": "test",
+            "category": "abc"
+        },
+        {
+            "_id": 2,
+            "img": "https://cdn.dummyjson.com/recipe-images/2.webp",
+            "title": "Nihil lallal one title lala",
+            "subtitle": "test",
+            "category": "abc"
+        },
+        {
+            "_id": 3,
+            "img": "https://cdn.dummyjson.com/recipe-images/3.webp",
+            "title": "Nihil lallal one title lala",
+            "subtitle": "test",
+            "category": "abc"
+        },
+        {
+            "_id": 4,
+            "img": "https://cdn.dummyjson.com/recipe-images/4.webp",
+            "title": "Nihil lallal one title lala",
+            "subtitle": "test",
+            "category": "abc"
+        },
+        {
+            "_id": 5,
+            "img": "https://cdn.dummyjson.com/recipe-images/5.webp",
+            "title": "Nihil lallal one title lala",
+            "subtitle": "test",
+            "category": "abc"
+        }
+    ],
+    "topselling": [
+        {
+            "_id": 1,
+            "preview": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png",
+            "name": "product name",
+            "price": 64,
+            "sold": 124
+        },
+        {
+            "_id": 2,
+            "preview": "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/thumbnail.png",
+            "name": "product name",
+            "price": 46,
+            "sold": 98
+        },
+        {
+            "_id": 3,
+            "preview": "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/thumbnail.png",
+            "name": "product name",
+            "price": 59,
+            "sold": 74
+        },
+        {
+            "_id": 4,
+            "preview": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png",
+            "name": "product name",
+            "price": 32,
+            "sold": 63
+        },
+        {
+            "_id": 5,
+            "preview": "https://cdn.dummyjson.com/products/images/furniture/Wooden%20Bathroom%20Sink%20With%20Mirror/thumbnail.png",
+            "name": "product name",
+            "price": 79,
+            "sold": 41
+        }
+    ],
+    "recentsales": [
+        {
+            "_id": 1,
+            "number": "#2457",
+            "customer": "Brandon Jacob",
+            "product": "product name",
+            "price": 64,
+            "status": "Approved"
+        },
+        {
+            "_id": 2,
+            "number": "#2147",
+            "customer": "Bridie Kessler",
+            "product": "product name",
+            "price": 47,
+            "status": "Pending"
+        },
+        {
+            "_id": 3,
+            "number": "#2049",
+            "customer": "Ashleigh Langosh",
+            "product": "product name",
+            "price": 147,
+            "status": "Approved"
+        },
+        {
+            "_id": 4,
+            "number": "#2644",
+            "customer": "Angus Grady",
+            "product": "product name",
+            "price": 67,
+            "status": "Rejected"
+        },
+        {
+            "_id": 5,
+            "number": "#3592",
+            "customer": "Raheen Lehner",
+            "product": "product name",
+            "price": 135,
+            "status": "Approved"
+        }
+    ],
+    "recentactivity": [
+        {
+            "_id": 1,
+            "time": "32 min",
+            "color": "text-success",
+            "content": "this is some description about the recent activity",
+            "highlight": "lalal highlight"
+        },
+        {
+            "_id": 2,
+            "time": "56 min",
+            "color": "text-danger",
+            "content": "this is some description about the recent activity",
+            "highlight": ""
+        },
+        {
+            "_id": 3,
+            "time": "2 h",
+            "color": "text-primary",
+            "content": "this is some description about the recent activity",
+            "highlight": ""
+        },
+        {
+            "_id": 4,
+            "time": "1 day",
+            "color": "text-info",
+            "content": "this is some description about the recent activity",
+            "highlight": "lalal highlight"
+        },
+        {
+            "_id": 5,
+            "time": "2 days",
+            "color": "text-warning",
+            "content": "this is some description about the recent activity",
+            "highlight": ""
+        },
+        {
+            "_id": 6,
+            "time": "4 weeks",
+            "color": "text-muted",
+            "content": "this is some description about the recent activity",
+            "highlight": ""
+        }
+    ],
+    "chartdata": {
+        "series": [
+        {
+            "name": "Sales",
+            "data": [31, 40, 28, 51, 42, 82, 56]
+        },
+        {
+            "name": "Revenue",
+            "data": [11, 32, 45, 32, 34, 52, 41]
+        },
+        {
+            "name": "Customers",
+            "data": [15, 11, 32, 18, 9, 24, 11]
+        }
+    ],
+    "options": {
+        "chart": {
+            "height": 350,
+            "type": "area", 
+            "toolbar": {
+                "show": false
+            }
+        },
+        "markers": {
+            "size": 4
+        },
+        "colors": ["#4154f1", "#2eca6a", "#ff771d"],
+        "fill": {
+            "type": "gradient", 
+            "gradient": {
+                "shadeIntensity": 1,
+                "opacityFrom": 0.3,
+                "opacityTo": 0.4,
+                "stops": [0, 90, 100]
+            }
+        },
+        "dataLabels": {
+            "enabled": false
+        },
+        "stroke": {
+            "curve": "smooth",
+            "width": 2
+        },
+        "xaxis": {
+            "type": "datetime",
+            "axisLabel": {
+                "overflow": "break",
+                "rotate": 45,  
+                "fontSize": 12  
+                
+            },
+            "categories": [
+                "2018-09-19T00:00:00.000Z",
+                "2018-09-19T01:30:00.000Z",
+                "2018-09-19T02:30:00.000Z",
+                "2018-09-19T03:30:00.000Z",
+                "2018-09-19T04:30:00.000Z",
+                "2018-09-19T05:30:00.000Z",
+                "2018-09-19T06:30:00.000Z"
+            ]
+        },
+        "yaxis": {
+            
+            "axisLabel": {
+                "overflow": "break",
+                "rotate": 45,  
+                "fontSize": 12  
+            }
+        },
+        "tooltip": {
+            "x": {
+                "format": "dd/mm/yy hh:mm"
+            }
+        }
+    } 
+    },
+    "budgetdata": {
+        "legend": {
+            "data": ["Allocated Budget", "Actual Spending"]
+        },
+        "radar": {
+            "shape": "circle",
+            "indicator": [
+                {
+                    "name": "Sales",
+                    "max": 6500
+                },
+                {
+                    "name": "Administration",
+                    "max": 16000
+                },
+                {
+                    "name": "IT",
+                    "max": 30000
+                },
+                {
+                    "name": "Customer Support",
+                    "max": 38000
+                },
+                {
+                    "name": "Development",
+                    "max": 52000
+                },
+                {
+                    "name": "Marketing",
+                    "max": 25000
+                }
+            ]
+        },
+        "series": [
+            {
+                "name": "Budget vs. spending",
+                "type": "radar",
+                "data": [
+                    {
+                        "value": [4200, 3000, 20000, 35000, 50000, 18000],
+                        "name": "Allocated Budget"
+                    },
+                    {
+                        "value": [5000, 14000, 28000, 26000, 42000, 21000],
+                        "name": "Actual Spending"
+                    }
+                ]
+            }
+        ]
+    },
+    "trafficdata": {
+        "tooltip": {
+            "trigger": "item"
+        },
+        "legend": {
+            "top": "5%",
+            "left": "center"
+        },
+        "series": [
+            {
+                "name": "Access From",
+                "type": "pie",
+                "radius": ["40%", "70%"],
+                "avoidLabelOverlap": false,
+                "label": {
+                    "show": false,
+                    "position": "center"
+                },
+                "emphasis": {
+                    "label": {
+                        "show": true,
+                        "fontSize": "18",
+                        "fontWeight": "bold"
+                    }
+                },
+                "labelLine": {
+                    "show": false
+                },
+                "data": [
+                    {
+                        "value": 1048,
+                        "name": "Search Engine"
+                    },
+                    {
+                        "value": 735,
+                        "name": "Direct"
+                    },
+                    {
+                        "value": 580,
+                        "name": "Email"
+                    },
+                    {
+                        "value": 484,
+                        "name": "Union Ads"
+                    },
+                    {
+                        "value": 300,
+                        "name": "Video Ads"
+                    }
+                ]
+            }
+        ]
+    }
+}

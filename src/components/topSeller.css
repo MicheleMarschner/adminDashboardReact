@@ -1,0 +1,20 @@
+.dashboard .top-seller {
+    font-size: 14px;
+}
+
+.dashboard .top-seller .table thead {
+    background: #f6f6fe !important;
+}
+
+.dashboard .top-seller .table thead th {
+    border: 0;
+}
+
+.dashboard .top-seller .table thead td {
+    vertical-align: middle;
+}
+
+.dashboard .top-seller img {
+    border-radius: 5px;
+    max-width: 60px;
+}
