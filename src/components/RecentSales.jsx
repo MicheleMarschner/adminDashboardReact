@@ -9,7 +9,7 @@ function RecentSales() {
   const [items, setItems] = useState([])
 
     const fetchData = () => {
-        fetch('http://localhost:8888/.netlify/functions/recentsales')
+        fetch('https://admin-dashboard-124.netlify.app/.netlify/functions/recentsales')
             .then(res => res.json())
             .then(data => setItems(data))
             .catch(e => console.log(e.message))

@@ -9,7 +9,7 @@ function News() {
   const [news, setNews] = useState([])
 
     const fetchData = () => {
-        fetch('http://localhost:8888/.netlify/functions/news')
+        fetch('https://admin-dashboard-124.netlify.app/.netlify/functions/news')
             .then(res => res.json())
             .then(data => setNews(data))
             .catch(e => console.log(e.message))

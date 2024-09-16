@@ -6,7 +6,7 @@ function ReportCharts() {
     const [data, setData] = useState([])
 
     const fetchData = () => {
-        fetch('http://localhost:8888/.netlify/functions/chartdata')
+        fetch('https://admin-dashboard-124.netlify.app/.netlify/functions/chartdata')
             .then(res => res.json())
             .then(data => setData(data))
             .catch(e => console.log(e.message))
