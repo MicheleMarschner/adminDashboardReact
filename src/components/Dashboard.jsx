@@ -14,9 +14,11 @@ function Dashboard() {
     const [cards, setCards] = useState([])
 
     const fetchData = () => {
-        fetch('http://localhost:4000/cards')
+        fetch('http://localhost:8888/.netlify/functions/cards')
             .then(res => res.json())
-            .then(data => setCards(data))
+            .then(data => {setCards(data)
+              console.log(data)
+            })
             .catch(e => console.log(e.message))
     }
 

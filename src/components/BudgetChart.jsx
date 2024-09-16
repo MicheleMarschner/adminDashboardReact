@@ -5,7 +5,7 @@ function BudgetChart() {
   const [data, setData] = useState({})
 
   const fetchData = () => {
-      fetch('http://localhost:4000/budgetdata')
+      fetch('http://localhost:8888/.netlify/functions/budgetdata')
           .then(res => res.json())
           .then(data => setData(data))
           .catch(e => console.log(e.message))

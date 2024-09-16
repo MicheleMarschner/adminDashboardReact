@@ -10,7 +10,7 @@ function RecentActivity() {
   const [items, setItems] = useState([])
 
     const fetchData = () => {
-        fetch('http://localhost:4000/recentactivity')
+        fetch('http://localhost:8888/.netlify/functions/recentactivity')
             .then(res => res.json())
             .then(data => setItems(data))
             .catch(e => console.log(e.message))

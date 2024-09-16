@@ -6,7 +6,7 @@ function WebTrafficChart() {
   const [data, setData] = useState({})
 
     const fetchData = () => {
-        fetch('http://localhost:4000/trafficdata')
+        fetch('http://localhost:8888/.netlify/functions/trafficdata')
             .then(res => res.json())
             .then(data => setData(data))
             .catch(e => console.log(e.message))

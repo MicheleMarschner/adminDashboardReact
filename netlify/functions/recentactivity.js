@@ -1,8 +1,7 @@
 exports.handler = async (event, context) => {
     return {
       statusCode: 200,
-      body: JSON.stringify({
-       "recentactivity": [
+      body: JSON.stringify([
         {
             "_id": 1,
             "time": "32 min",
@@ -45,7 +44,7 @@ exports.handler = async (event, context) => {
             "content": "this is some description about the recent activity",
             "highlight": ""
         }
-    ]
-      })
+    ] 
+      )
     }
   }

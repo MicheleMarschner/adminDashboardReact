@@ -9,7 +9,7 @@ function TopSeller() {
   const [items, setItems] = useState([])
 
     const fetchData = () => {
-        fetch('http://localhost:4000/topselling')
+        fetch('http://localhost:8888/.netlify/functions/topselling')
             .then(res => res.json())
             .then(data => setItems(data))
             .catch(e => console.log(e.message))
