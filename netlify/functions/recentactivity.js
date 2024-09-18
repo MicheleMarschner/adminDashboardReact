@@ -6,43 +6,43 @@ exports.handler = async (event, context) => {
             "_id": 1,
             "time": "32 min",
             "color": "text-success",
-            "content": "this is some description about the recent activity",
-            "highlight": "lalal highlight"
+            "content": "Password change",
+            "highlight": "Security: "
         },
         {
             "_id": 2,
             "time": "56 min",
             "color": "text-danger",
-            "content": "this is some description about the recent activity",
-            "highlight": ""
+            "content": "Login from new device detected",
+            "highlight": "Security: "
         },
         {
             "_id": 3,
             "time": "2 h",
             "color": "text-primary",
-            "content": "this is some description about the recent activity",
-            "highlight": ""
+            "content": "Establishing custom filter",
+            "highlight": "Report: "
         },
         {
             "_id": 4,
             "time": "1 day",
             "color": "text-info",
-            "content": "this is some description about the recent activity",
-            "highlight": "lalal highlight"
+            "content": "Monthly report download",
+            "highlight": "Report: "
         },
         {
             "_id": 5,
             "time": "2 days",
             "color": "text-warning",
-            "content": "this is some description about the recent activity",
-            "highlight": ""
+            "content": "Change of Administrator",
+            "highlight": "Security: "
         },
         {
             "_id": 6,
             "time": "4 weeks",
             "color": "text-muted",
-            "content": "this is some description about the recent activity",
-            "highlight": ""
+            "content": "Password change",
+            "highlight": "Security: "
         }
     ] 
       )

@@ -3,41 +3,41 @@ exports.handler = async (event, context) => {
       statusCode: 200,
       body: JSON.stringify( [
         {
-            "_id": 1,
-            "preview": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png",
-            "name": "product name",
-            "price": 64,
-            "sold": 124
+          "_id": 1,
+          "sold": 124,
+          "preview": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+          "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+          "price": 109.95
         },
         {
-            "_id": 2,
-            "preview": "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/thumbnail.png",
-            "name": "product name",
-            "price": 46,
-            "sold": 98
+          "_id": 2,
+          "sold": 98,
+          "preview": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+          "name": "Mens Casual Premium Slim Fit T-Shirts ",
+          "price": 22.3
         },
         {
-            "_id": 3,
-            "preview": "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/thumbnail.png",
-            "name": "product name",
-            "price": 59,
-            "sold": 74
+          "_id": 3,
+          "sold": 74,
+          "preview": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+          "name": "Mens Cotton Jacket",
+          "price": 55.99
         },
         {
-            "_id": 4,
-            "preview": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png",
-            "name": "product name",
-            "price": 32,
-            "sold": 63
+          "_id": 4,
+          "sold": 63,
+          "preview": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+          "name": "Mens Casual Slim Fit",
+          "price": 15.99
         },
         {
-            "_id": 5,
-            "preview": "https://cdn.dummyjson.com/products/images/furniture/Wooden%20Bathroom%20Sink%20With%20Mirror/thumbnail.png",
-            "name": "product name",
-            "price": 79,
-            "sold": 41
+          "_id": 5,
+          "sold": 4,
+          "preview": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+          "name": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+          "price": 695
         }
-    ]
+      ]
       )
     }
   }

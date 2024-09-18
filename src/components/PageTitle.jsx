@@ -3,9 +3,9 @@ import './pageTitle.css'
 
 function PageTitle({ page }) {
   return (
-    <div className='pageTitle'>
+    <div className='pageTitle mb-5'>
         <h1>{page}</h1>
-        <nav>
+        {/*<nav>
             <ol className='breadcrumb'>
                 <li className='breadcrumb-item'>
                     <a href='/'>
@@ -14,7 +14,7 @@ function PageTitle({ page }) {
                 </li>
                 <li className='breadcrumb-item active'>{page}</li>
             </ol>
-        </nav>
+        </nav>*/}
     </div>
   )
 }

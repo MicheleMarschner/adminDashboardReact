@@ -33,19 +33,19 @@ function SideBar() {
                 >
                     <li>
                         <a href='/'>
-                            <i className='bi bi-circle'></i>
+                            <i className='bi bi-circle-fill'></i>
                             <span>Customers</span>
                         </a>
                     </li>
                     <li>
                         <a href='/'>
-                            <i className='bi bi-circle'></i>
+                            <i className='bi bi-circle-fill'></i>
                             <span>Suppliers</span>
                         </a>
                     </li>
                     <li>
                         <a href='/'>
-                            <i className='bi bi-circle'></i>
+                            <i className='bi bi-circle-fill'></i>
                             <span>Logistic</span>
                         </a>
                     </li>
@@ -71,19 +71,19 @@ function SideBar() {
                 >
                     <li>
                         <a href='/'>
-                            <i className='bi bi-circle'></i>
+                            <i className='bi bi-circle-fill'></i>
                             <span>Application Form</span>
                         </a>
                     </li>
                     <li>
                         <a href='/'>
-                            <i className='bi bi-circle'></i>
+                            <i className='bi bi-circle-fill'></i>
                             <span>Release Form</span>
                         </a>
                     </li>
                     <li>
                         <a href='/'>
-                            <i className='bi bi-circle'></i>
+                            <i className='bi bi-circle-fill'></i>
                             <span>Cancellation Form</span>
                         </a>
                     </li>
@@ -108,13 +108,13 @@ function SideBar() {
                 >
                     <li>
                         <a href='/'>
-                            <i className='bi bi-circle'></i>
+                            <i className='bi bi-circle-fill'></i>
                             <span>General Tables</span>
                         </a>
                     </li>
                     <li>
                         <a href='/'>
-                            <i className='bi bi-circle'></i>
+                            <i className='bi bi-circle-fill'></i>
                             <span>Data Tables</span>
                         </a>
                     </li>
@@ -139,19 +139,19 @@ function SideBar() {
                 >
                     <li>
                         <a href='/'>
-                            <i className='bi bi-circle'></i>
+                            <i className='bi bi-circle-fill'></i>
                             <span>Chart.js</span>
                         </a>
                     </li>
                     <li>
                         <a href='/'>
-                            <i className='bi bi-circle'></i>
+                            <i className='bi bi-circle-fill'></i>
                             <span>ApexCharts</span>
                         </a>
                     </li>
                     <li>
                         <a href='/'>
-                            <i className='bi bi-circle'></i>
+                            <i className='bi bi-circle-fill'></i>
                             <span>ECharts</span>
                         </a>
                     </li>
@@ -176,19 +176,19 @@ function SideBar() {
                 >
                     <li>
                         <a href='/'>
-                            <i className='bi bi-circle'></i>
+                            <i className='bi bi-circle-fill'></i>
                             <span>Bootstrap Icons</span>
                         </a>
                     </li>
                     <li>
                         <a href='/'>
-                            <i className='bi bi-circle'></i>
+                            <i className='bi bi-circle-fill'></i>
                             <span>Remix Icons</span>
                         </a>
                     </li>
                     <li>
                         <a href='/'>
-                            <i className='bi bi-circle'></i>
+                            <i className='bi bi-circle-fill'></i>
                             <span>Boxicons</span>
                         </a>
                     </li>

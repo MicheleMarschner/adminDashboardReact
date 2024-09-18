@@ -133,23 +133,22 @@
 .sidebar-nav .nav-content a {
     display: flex;
     align-items: center;
-    font-size: 14px;
+    font-size: .7rem;
     font-weight: 600;
     color: #012970;
     transition: 0.3;
     padding: 10px 0 10px 40px;
-}
-
-.sidebar-nav .nav-content a {
-    font-size: 6px;
-    margin-right: 8px;
-    line-height: 0;
-    border-radius: 50%;
+    line-height: 2px;
 }
 
 .sidebar-nav .nav-content a:hover,
 .sidebar-nav .nav-content a.active {
     color: #4154f1;
+}
+
+.sidebar-nav .nav-content i {
+    margin-right: 5px;
+    font-size: 4px;
 }
 
 .sidebar-nav .nav-content a.active i {

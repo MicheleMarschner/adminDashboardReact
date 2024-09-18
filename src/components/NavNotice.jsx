@@ -26,7 +26,7 @@ function NavNotice() {
                 <i className='bi bi-exclamation-circle text-warning'></i>
                 <div>
                     <h4>Lorem Ipsum</h4>
-                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima qui, natus consequatur eligendi ducimus sequi nisi quidem incidunt omnis delectus et consectetur quos amet earum pariatur itaque perferendis, voluptatem libero!</p>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima qui, natus consequatur eligendi ducimus sequi.</p>
                     <p>30 min. ago</p>
                 </div>
             </li>

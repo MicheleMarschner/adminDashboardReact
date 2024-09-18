@@ -29,114 +29,114 @@
         {
             "_id": 1,
             "img": "https://cdn.dummyjson.com/recipe-images/1.webp",
-            "title": "Nihil lallal one title lala",
-            "subtitle": "test",
-            "category": "abc"
+            "title": "Recipe 1",
+            "subtitle": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima qui, et consectetur quos amet earum pariatur itaque perferendis, voluptatem libero!",
+            "category": "Recipe"
         },
         {
             "_id": 2,
             "img": "https://cdn.dummyjson.com/recipe-images/2.webp",
-            "title": "Nihil lallal one title lala",
-            "subtitle": "test",
-            "category": "abc"
+            "title": "Recipe 2",
+            "subtitle": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima qui, et consectetur quos amet earum pariatur itaque perferendis, voluptatem libero!",
+            "category": "Recipe"
         },
         {
             "_id": 3,
             "img": "https://cdn.dummyjson.com/recipe-images/3.webp",
-            "title": "Nihil lallal one title lala",
-            "subtitle": "test",
-            "category": "abc"
+            "title": "Recipe 3",
+            "subtitle": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima qui, et consectetur quos amet earum pariatur itaque perferendis, voluptatem libero!",
+            "category": "Recipe"
         },
         {
             "_id": 4,
             "img": "https://cdn.dummyjson.com/recipe-images/4.webp",
-            "title": "Nihil lallal one title lala",
-            "subtitle": "test",
-            "category": "abc"
+            "title": "Recipe 4",
+            "subtitle": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima qui, et consectetur quos amet earum pariatur itaque perferendis, voluptatem libero!",
+            "category": "Recipe"
         },
         {
             "_id": 5,
             "img": "https://cdn.dummyjson.com/recipe-images/5.webp",
-            "title": "Nihil lallal one title lala",
-            "subtitle": "test",
-            "category": "abc"
+            "title": "Recipe 5",
+            "subtitle": "Lorem ipsum dolor, sit amet consectetur adipisicing elit. Minima qui, et consectetur quos amet earum pariatur itaque perferendis, voluptatem libero!",
+            "category": "Recipe"
         }
     ],
     "topselling": [
         {
-            "_id": 1,
-            "preview": "https://cdn.dummyjson.com/products/images/beauty/Essence%20Mascara%20Lash%20Princess/thumbnail.png",
-            "name": "product name",
-            "price": 64,
-            "sold": 124
+          "_id": 1,
+          "sold": 124,
+          "preview": "https://fakestoreapi.com/img/81fPKd-2AYL._AC_SL1500_.jpg",
+          "name": "Fjallraven - Foldsack No. 1 Backpack, Fits 15 Laptops",
+          "price": 109.95
         },
         {
-            "_id": 2,
-            "preview": "https://cdn.dummyjson.com/products/images/fragrances/Dolce%20Shine%20Eau%20de/thumbnail.png",
-            "name": "product name",
-            "price": 46,
-            "sold": 98
+          "_id": 2,
+          "sold": 98,
+          "preview": "https://fakestoreapi.com/img/71-3HjGNDUL._AC_SY879._SX._UX._SY._UY_.jpg",
+          "name": "Mens Casual Premium Slim Fit T-Shirts ",
+          "price": 22.3
         },
         {
-            "_id": 3,
-            "preview": "https://cdn.dummyjson.com/products/images/furniture/Annibale%20Colombo%20Bed/thumbnail.png",
-            "name": "product name",
-            "price": 59,
-            "sold": 74
+          "_id": 3,
+          "sold": 74,
+          "preview": "https://fakestoreapi.com/img/71li-ujtlUL._AC_UX679_.jpg",
+          "name": "Mens Cotton Jacket",
+          "price": 55.99
         },
         {
-            "_id": 4,
-            "preview": "https://cdn.dummyjson.com/products/images/beauty/Red%20Lipstick/thumbnail.png",
-            "name": "product name",
-            "price": 32,
-            "sold": 63
+          "_id": 4,
+          "sold": 63,
+          "preview": "https://fakestoreapi.com/img/71YXzeOuslL._AC_UY879_.jpg",
+          "name": "Mens Casual Slim Fit",
+          "price": 15.99
         },
         {
-            "_id": 5,
-            "preview": "https://cdn.dummyjson.com/products/images/furniture/Wooden%20Bathroom%20Sink%20With%20Mirror/thumbnail.png",
-            "name": "product name",
-            "price": 79,
-            "sold": 41
+          "_id": 5,
+          "sold": 4,
+          "preview": "https://fakestoreapi.com/img/71pWzhdJNwL._AC_UL640_QL65_ML3_.jpg",
+          "name": "John Hardy Women's Legends Naga Gold & Silver Dragon Station Chain Bracelet",
+          "price": 695
         }
-    ],
+      ],
     "recentsales": [
         {
             "_id": 1,
-            "number": "#2457",
+            "customerId": "#2457",
             "customer": "Brandon Jacob",
-            "product": "product name",
+            "productId": "#36",
             "price": 64,
             "status": "Approved"
         },
         {
             "_id": 2,
-            "number": "#2147",
+            "customerId": "#2147",
             "customer": "Bridie Kessler",
-            "product": "product name",
+            "productId": "#35",
             "price": 47,
             "status": "Pending"
         },
         {
             "_id": 3,
-            "number": "#2049",
+            "customerId": "#2049",
             "customer": "Ashleigh Langosh",
-            "product": "product name",
+            "productId": "#34",
             "price": 147,
             "status": "Approved"
         },
         {
             "_id": 4,
-            "number": "#2644",
+            "customerId": "#2644",
             "customer": "Angus Grady",
-            "product": "product name",
+            "productId": "#33",
             "price": 67,
             "status": "Rejected"
         },
         {
             "_id": 5,
-            "number": "#3592",
+            "customerId": "#3592",
             "customer": "Raheen Lehner",
-            "product": "product name",
+            "productId": "#32",
             "price": 135,
             "status": "Approved"
         }
@@ -146,43 +146,43 @@
             "_id": 1,
             "time": "32 min",
             "color": "text-success",
-            "content": "this is some description about the recent activity",
-            "highlight": "lalal highlight"
+            "content": "Password change",
+            "highlight": "Security: "
         },
         {
             "_id": 2,
             "time": "56 min",
             "color": "text-danger",
-            "content": "this is some description about the recent activity",
-            "highlight": ""
+            "content": "Login from new device detected",
+            "highlight": "Security: "
         },
         {
             "_id": 3,
             "time": "2 h",
             "color": "text-primary",
-            "content": "this is some description about the recent activity",
-            "highlight": ""
+            "content": "Establishing custom filter",
+            "highlight": "Report: "
         },
         {
             "_id": 4,
             "time": "1 day",
             "color": "text-info",
-            "content": "this is some description about the recent activity",
-            "highlight": "lalal highlight"
+            "content": "Monthly report download",
+            "highlight": "Report: "
         },
         {
             "_id": 5,
             "time": "2 days",
             "color": "text-warning",
-            "content": "this is some description about the recent activity",
-            "highlight": ""
+            "content": "Change of Administrator",
+            "highlight": "Security: "
         },
         {
             "_id": 6,
             "time": "4 weeks",
             "color": "text-muted",
-            "content": "this is some description about the recent activity",
-            "highlight": ""
+            "content": "Password change",
+            "highlight": "Security: "
         }
     ],
     "chartdata": {
