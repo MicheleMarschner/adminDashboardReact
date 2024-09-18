@@ -10,7 +10,7 @@ function RecentActivityItem({ item }) {
         ) : (
             <div className='activity-content'>
             <a href='/' className='fw-bold text-dark'>{item.highlight}</a>
-            {item.content.length > 150? item.content.slice(0, 150) + '...' : item.content}
+            {item.content.length > 100? item.content.slice(0, 100) + '...' : item.content}
             </div>
         )}
     </div>
