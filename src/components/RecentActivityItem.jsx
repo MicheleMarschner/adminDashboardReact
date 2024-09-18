@@ -8,10 +8,9 @@ function RecentActivityItem({ item }) {
         {item.highlight === '' ? (
             <div className='activity-content'>{item.content}</div> 
         ) : (
-            <div className='activity-content'>{item.content.substring(0, item.content.indexOf(item.highlight))} 
+            <div className='activity-content'>
             <a href='/' className='fw-bold text-dark'>{item.highlight}</a>
-            {item.content.slice(item.content.indexOf(item.highlight) + item.highlight.length, -1
-            )}
+            {item.content.length > 150? item.content.slice(0, 150) + '...' : item.content}
             </div>
         )}
     </div>
