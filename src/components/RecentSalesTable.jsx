@@ -11,34 +11,36 @@ function RecentSalesTable({ items }) {
     }
 
   return (
-    <table className='table table-borderless datatable'>
-        <thead className='table-light'>
-            <tr>
-                <th scope='col'>Customer ID</th>
-                <th scope='col'>Customer</th>
-                <th scope='col'>Cart ID</th>
-                <th scope='col'>Price</th>
-                <th scope='col'>Status</th>
-            </tr>
-        </thead>
-        <tbody>
-            {items && items.length > 0 && items.map(item => (
-                <tr key={item._id}>
-                    <th scope='row'>
-                        <a href='/'>{item.customerId}</a>
-                    </th>
-                    <td>{item.customer}</td>
-                    <td>
-                        <a href='/' className='text-primary'>{item.cartId}</a>
-                    </td>
-                    <td>${item.price.toFixed(2)}</td>
-                    <td>
-                        <span className={`badge bg-${handleStatus(item.status)}`}>{item.status}</span>
-                    </td>
+    <div class="table-responsive">
+        <table className='table table-borderless datatable'>
+            <thead className='table-light'>
+                <tr>
+                    <th scope='col'>Customer ID</th>
+                    <th scope='col'>Customer</th>
+                    <th scope='col'>Cart ID</th>
+                    <th scope='col'>Price</th>
+                    <th scope='col'>Status</th>
                 </tr>
-            ))}
-        </tbody>
-    </table>
+            </thead>
+            <tbody>
+                {items && items.length > 0 && items.map(item => (
+                    <tr key={item._id}>
+                        <th scope='row'>
+                            <a href='/'>{item.customerId}</a>
+                        </th>
+                        <td>{item.customer}</td>
+                        <td>
+                            <a href='/'>{item.cartId}</a>
+                        </td>
+                        <td>${item.price.toFixed(2)}</td>
+                        <td>
+                            <span className={`badge bg-${handleStatus(item.status)}`}>{item.status}</span>
+                        </td>
+                    </tr>
+                ))}
+            </tbody>
+        </table>
+    </div>
   )
 }
 

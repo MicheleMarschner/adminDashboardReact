@@ -7,7 +7,7 @@ exports.handler = async (event, context) => {
             "_id": 1,
             "customerId": "#2457",
             "customer": "Brandon Jacob",
-            "productId": "#36",
+            "cartId": "#36",
             "price": 64,
             "status": "Approved"
         },
@@ -15,7 +15,7 @@ exports.handler = async (event, context) => {
             "_id": 2,
             "customerId": "#2147",
             "customer": "Bridie Kessler",
-            "productId": "#35",
+            "cartId": "#35",
             "price": 47,
             "status": "Pending"
         },
@@ -23,7 +23,7 @@ exports.handler = async (event, context) => {
             "_id": 3,
             "customerId": "#2049",
             "customer": "Ashleigh Langosh",
-            "productId": "#34",
+            "cartId": "#34",
             "price": 147,
             "status": "Approved"
         },
@@ -31,7 +31,7 @@ exports.handler = async (event, context) => {
             "_id": 4,
             "customerId": "#2644",
             "customer": "Angus Grady",
-            "productId": "#33",
+            "cartId": "#33",
             "price": 67,
             "status": "Rejected"
         },
@@ -39,7 +39,7 @@ exports.handler = async (event, context) => {
             "_id": 5,
             "customerId": "#3592",
             "customer": "Raheen Lehner",
-            "productId": "#32",
+            "cartId": "#32",
             "price": 135,
             "status": "Approved"
         }
