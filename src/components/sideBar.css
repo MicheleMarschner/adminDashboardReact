@@ -1,10 +1,7 @@
-
-
-
 .sidebar {
     position: fixed;
     top: 60px;
-    left: 0;
+    left: -300px;
     bottom: 0;
     width: 300px;
     z-index: 996;
@@ -15,12 +12,6 @@
     scrollbar-color: #aab7cf transparent;
     box-shadow: 0px 0px 20px rgba(1, 41, 112, 0.1);
     background-color: #fff;
-}
-
-@media (max-width: 1199px) {
-    .sidebar {
-        left: -300px;
-    }
 }
 
 .sidebar::-webkit-scrollbar {
@@ -34,23 +25,23 @@
 }
 
 @media (min-width: 1200px) {
-    #main,
-    #footer {
+    .show-sidebar #main,
+    .show-sidebar #footer {
         margin-left: 300px;
     }
 
-    .toggle-sidebar #main,
-    .toggle-sidebar #footer {
+    #main,
+    #footer {
         margin-left: 0;
     }
 
-    .toggle-sidebar .sidebar {
-        left: -300px;
+    .show-sidebar .sidebar {
+        left: 0;
     }
 }
 
 @media (max-width: 1199px) {
-    .toggle-sidebar .sidebar {
+    .show-sidebar .sidebar {
         left: 0;
     }
 }

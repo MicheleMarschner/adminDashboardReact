@@ -1,10 +1,16 @@
-import React from 'react'
+import React, {useState, useEffect} from 'react'
 import './logo.css'
 
 function Logo() {
+  const [isChecked, setIsChecked] = useState(false);
+
+  useEffect (() => {
+    if (isChecked === true) document.body.classList.add('show-sidebar')
+    else document.body.classList.remove('show-sidebar')
+  }, [isChecked])
 
   const handleToggleSideBar = () => {
-    document.body.classList.toggle('toggle-sidebar')
+    setIsChecked(!isChecked);
   } 
 
   return (
@@ -13,7 +19,12 @@ function Logo() {
             
             <span className='d-none d-lg-block'>AdminDashboard</span>
         </a>
-        <i className='bi bi-list toggle-sidebar-btn' onClick={handleToggleSideBar}></i>
+        <label className="hamburger-menu">
+          <input 
+            type="checkbox" 
+            checked={isChecked}
+            onChange={handleToggleSideBar}/>
+        </label>
     </div>
   )
 }
