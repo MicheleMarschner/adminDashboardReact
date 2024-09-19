@@ -26,7 +26,7 @@ function RecentSalesTable({ items }) {
                 {items && items.length > 0 && items.map(item => (
                     <tr key={item._id}>
                         <th scope='row'>
-                            <a href='/'>{item.customerId}</a>
+                            <a href='/'>{item.cartId}</a>
                         </th>
                         <td>{item.customer}</td>
                         <td>
