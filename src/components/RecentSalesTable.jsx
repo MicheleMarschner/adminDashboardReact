@@ -11,7 +11,7 @@ function RecentSalesTable({ items }) {
     }
 
   return (
-    <div class="table-responsive">
+   
         <table className='table table-borderless datatable'>
             <thead className='table-light'>
                 <tr>
@@ -40,7 +40,7 @@ function RecentSalesTable({ items }) {
                 ))}
             </tbody>
         </table>
-    </div>
+    
   )
 }
 
