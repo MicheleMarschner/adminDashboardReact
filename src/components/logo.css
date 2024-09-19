@@ -4,17 +4,17 @@
 
 @media (min-width: 1200px) {
     .logo {
-        width: 280px;
+        width: 17.5rem;
     }
 }
 
 .logo img {
     max-height: 26px;
-    margin-right: 6px;
+    margin-right: .5rem;
 }
 
 .logo span {
-    font-size: 26px;
+    font-size: 1.6rem;
     font-weight: 700;
     color: #012970;
     font-family: 'Nunito', sans-serif;
@@ -23,10 +23,10 @@
 .hamburger-menu {
     display: flex;
     flex-direction: column;
-    gap: 6px;
+    gap: .5rem;
     width: max-content;
     /*position: absolute;*/
-    margin-left: 10px;
+    margin-left: .62rem;
     z-index: 2;
     cursor: pointer;
 }
@@ -35,7 +35,7 @@
 .hamburger-menu::after,
 .hamburger-menu input {
     content: "";
-    width: 20px;
+    width: 1.25rem;
     height: 2px;
     background-color: #333;
     transform-origin: left center;
@@ -52,14 +52,14 @@
 
 .hamburger-menu:has(input:checked)::before {
     rotate: 45deg;
-    translate: 0 0px;
-    width: 20px;
+    translate: 0 0;
+    width: 1.25rem;
 }
 
 .hamburger-menu:has(input:checked)::after {
     rotate: -45deg;
     translate: 0 -2px;
-    width: 20px;
+    width: 1.25rem;
 }
 
 .hamburger-menu input:checked {

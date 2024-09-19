@@ -1,6 +1,6 @@
 .footer {
-    padding: 20px 0;
-    font-size: 14px;
+    padding: 1.25rem 0;
+    font-size: .87rem;
     transition: all 0.3s;
     border-top: 1px solid #cddfff;
 }
@@ -13,6 +13,6 @@
 .footer .credits {
     padding-top: 5px;
     text-align: center;
-    font-size: 13px;
+    font-size: .87rem;
     color: #012970;
 }

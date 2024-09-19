@@ -50,7 +50,7 @@ h6 {
 /* Dropdown menus */
 .dropdown-menu {
   border-radius: 4px;
-  padding: 10px 0;
+  padding: .65rem 0;
   -webkit-animation-name: dropdown-animate;
   animation-name: dropdown-animate;
   -webkit-animation-duration: 0.2s;
@@ -64,8 +64,8 @@ h6 {
 .dropdown-menu .dropdown-header,
 .dropdown-menu .dropdown-footer {
   text-align: center;
-  font-size: 15px;
-  padding: 10px 25px;
+  font-size: .94rem;
+  padding: .65rem 1.5rem;
 }
 
 .dropdown-menu .dropdown-footer a {
@@ -83,14 +83,14 @@ h6 {
 }
 
 .dropdown-menu .dropdown-item {
-  font-size: 14px;
-  padding: 10px 15px;
+  font-size: .88rem;
+  padding: .62rem .94rem;
   transition: 0.3s;
 }
 
 .dropdown-menu .dropdown-item i {
-  margin-right: 10px;
-  font-size: 18px;
+  margin-right: .62rem;
+  font-size: 1.1rem;
   line-height: 0;
 }
 
@@ -101,8 +101,8 @@ h6 {
 @media (min-width: 768px) {
   .dropdown-menu-arrow::before {
     content: '';
-    width: 13px;
-    height: 13px;
+    width: .81rem;
+    height: .81rem;
     background-color: #fff;
     position: absolute;
     top: -7px;
@@ -143,8 +143,8 @@ h6 {
 
 
 .card {
-  min-width: 250px;
-  margin-bottom: 30px;
+  min-width: 15.6rem;
+  margin-bottom: 1.87rem;
   border: none;
   border-radius: 5px;
   box-shadow: 0px 0 30px rgba(1, 41, 112, 0.1);
@@ -155,12 +155,12 @@ h6 {
   border-color: #ebeef4;
   background-color: #fff;
   color: #798eb3;
-  padding: 15px;
+  padding: .94rem;
 }
 
 .card-title {
-  padding: 20px 0 15px 0;
-  font-size: 18px;
+  padding: 1.25rem 0 .94rem 0;
+  font-size: 1.2rem;
   font-weight: 500;
   color: #012970;
   letter-spacing: 1px;
@@ -169,12 +169,12 @@ h6 {
 
 .card-title span {
   color: #899bbd;
-  font-size: 14px;
+  font-size: .87rem;
   font-weight: 400;
 }
 
 .card-body {
-  padding: 0 20px 20px 20px;
+  padding: 0 1.25rem 1.25rem 1.25rem;
 }
 
 .card-img-overlay {

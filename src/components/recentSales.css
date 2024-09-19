@@ -1,5 +1,5 @@
 .dashboard .recent-sales {
-    font-size: 14px;
+    font-size: .87rem;
 }
 
 .dashboard .recent-sales .table thead {
@@ -11,9 +11,9 @@
 }
 
 .dashboard .recent-sales .table .dataTable-top {
-    padding: 0 0 10px 0;
+    padding: 0 0 .62rem 0;
 }
 
 .dashboard .recent-sales .table .dataTable-bottom {
-    padding: 10px 0 0 0;
+    padding: .62rem 0 0 0;
 }
