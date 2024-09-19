@@ -35,8 +35,8 @@
 .hamburger-menu::after,
 .hamburger-menu input {
     content: "";
-    width: 30px;
-    height: 3px;
+    width: 20px;
+    height: 2px;
     background-color: #333;
     transform-origin: left center;
     transition: opacity 200ms ease-in-out, width 200ms ease-in-out, rotate 200ms ease-in-out, translate 200ms ease-in-out;
@@ -52,19 +52,17 @@
 
 .hamburger-menu:has(input:checked)::before {
     rotate: 45deg;
-    translate: 0 -1px;
-    width: 25px;
+    translate: 0 0px;
+    width: 20px;
 }
 
 .hamburger-menu:has(input:checked)::after {
     rotate: -45deg;
     translate: 0 -2px;
-    width: 25px;
+    width: 20px;
 }
 
 .hamburger-menu input:checked {
     width: 0;
     background-color: transparent;
 }
-
-/*calc( (8px*3) + (6px*2) )*/
