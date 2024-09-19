@@ -52,13 +52,13 @@
 
 .hamburger-menu:has(input:checked)::before {
     rotate: 45deg;
-    translate: 0 0;
+    translate: 0 1px;
     width: 1.25rem;
 }
 
 .hamburger-menu:has(input:checked)::after {
     rotate: -45deg;
-    translate: 0 -2px;
+    translate: 0 -5px;
     width: 1.25rem;
 }
 
