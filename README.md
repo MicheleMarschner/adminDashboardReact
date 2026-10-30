@@ -4,6 +4,8 @@ An admin dashboard built with React, featuring KPI cards, interactive charts, ta
 
 ![React Admin Dashboard](dashboard.png)
 
+[Live Demo](https://admin-dashboard-124.netlify.app/)
+
 ## Features
 
 - Dashboard components for displaying key metrics and activity data
