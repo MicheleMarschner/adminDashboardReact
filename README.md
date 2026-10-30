@@ -2,6 +2,8 @@
 
 An admin dashboard built with React, featuring KPI cards, interactive charts, tables, and activity views.
 
+![React Admin Dashboard](dashboard.png)
+
 ## Features
 
 - Dashboard components for displaying key metrics and activity data
